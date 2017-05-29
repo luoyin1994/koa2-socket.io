@@ -1,0 +1,7 @@
+1.使用koa2配合socket（常用库 socket.io 或者 ws https://www.npmjs.com搜索即可）完成在线聊天室 同一个用户能进入到不同频道，用户进入离开前端均有通知。
+
+2.完成压力测试 找出nodejs性能瓶颈
+
+3.PHP+MYSQL完成备份接口  nodejs时时备份
+
+4.（备选）使用P2P协助服务端分发用户聊天信息 (实用技术 peer)
