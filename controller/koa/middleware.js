@@ -1,9 +1,11 @@
-const config   = require('../config/config');//引入配置文件
+/** koa中间件设置 **/
+//引入配置文件
+const config   = require('../../config/config');
 module.exports = [
     //静态资源设置
     require('koa-static')(config.serve.path),
     //视图文件和视图引擎设置
-    require('koa-views')(config.views.path, {extension: config.views.extension}),
+    require('koa-views')(config.views.path, {extension: config.views.template}),
     //路由设置
     require('koa-simple-router')(_ => {
         let configRouter = config.router;

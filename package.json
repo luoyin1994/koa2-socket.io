@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "chrome http://localhost:3000 & supervisor app"
+    "start": "chrome http://localhost:3000 & supervisor ./bin/app"
   },
   "dependencies": {
     "koa": "^2.2.0",
